@@ -26,6 +26,8 @@
 //   return workbook.toFileAsync("result.xlsx");
 // });
 
+//above code tried by watching youtube videos, quite time consuming
+
 const fs = require("fs");
 const XLSX = require("xlsx");
 const { parse, format, addDays } = require("date-fns");
